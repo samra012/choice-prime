@@ -24,8 +24,8 @@ import {
 } from "lucide-react";
 import { FormEvent, useEffect, useState } from "react";
 
-const logoUrl = "/manus-storage/choice-prime-logo_c65599dd.png";
-const markUrl = "/manus-storage/choice-prime-mark_b1e7cdae.png";
+const logoUrl = "/assets/choice-prime-logo_c65599dd.png";
+const markUrl = "/assets/choice-prime-mark_b1e7cdae.png";
 
 const services = [
   {
@@ -84,7 +84,7 @@ const projects = [
     category: "Private residence care",
     title: "Luxury care for surfaces you live with every day.",
     copy: "A considered cleaning and maintenance approach for refined interiors, from carpets and upholstery to high-value stone, leather and architectural finishes.",
-    image: "/manus-storage/profile-000_298a1df8.jpg",
+    image: "/assets/profile-000_298a1df8.jpg",
     materials: "Stone · leather · textile",
     treatment: "Restoration, conditioning & detail cleaning",
     outcome: "A residence prepared for everyday living and considered hosting.",
@@ -94,7 +94,7 @@ const projects = [
     category: "Hospitality cleaning",
     title: "A polished guest experience, from opening to close.",
     copy: "Leather and fabric sofa cleaning, stain removal and detail care for high-traffic hospitality spaces with no compromise on the guest-facing finish.",
-    image: "/manus-storage/profile-002_3e10afbf.jpg",
+    image: "/assets/profile-002_3e10afbf.jpg",
     materials: "Upholstery · timber · hard flooring",
     treatment: "Deep cleaning & high-traffic stain care",
     outcome: "A guest-facing finish with a consistently considered feel.",
@@ -104,7 +104,7 @@ const projects = [
     category: "Yacht interiors",
     title: "Luxury care for materials exposed to the sea.",
     copy: "Carpet, wood, sofas and beds cleaning, stain removal, and wooden floor restoration tailored to exceptional yacht interiors.",
-    image: "/manus-storage/choice-prime-yacht_a1faf3f6.jpg",
+    image: "/assets/choice-prime-yacht_a1faf3f6.jpg",
     materials: "Teak · leather · chrome",
     treatment: "Marine-safe care & wood restoration",
     outcome: "A calmer, clearer interior finish ready for time on the water.",
@@ -140,22 +140,22 @@ const qualityPartners = ["Akemi", "Bosch", "DeWalt", "Fila", "Diversey", "Kärch
 
 const heroSlides = [
   {
-    image: "/manus-storage/profile-000_298a1df8.jpg",
+    image: "/assets/profile-000_298a1df8.jpg",
     alt: "Luxury Dubai residence from the Choice Prime company profile",
     label: "Private residence care",
   },
   {
-    image: "/manus-storage/profile-002_3e10afbf.jpg",
+    image: "/assets/profile-002_3e10afbf.jpg",
     alt: "Luxury hospitality interior from the Choice Prime company profile",
     label: "Hospitality cleaning",
   },
   {
-    image: "/manus-storage/profile-003_f4d3f54b.jpg",
+    image: "/assets/profile-003_f4d3f54b.jpg",
     alt: "Luxury yacht from the Choice Prime company profile",
     label: "Yacht interior care",
   },
   {
-    image: "/manus-storage/profile-005_4af6819d.jpg",
+    image: "/assets/profile-005_4af6819d.jpg",
     alt: "Dubai commercial skyline from the Choice Prime company profile",
     label: "Commercial spaces · Dubai",
   },
@@ -358,7 +358,7 @@ export default function Home() {
 
             <div className="mt-14 grid gap-8 lg:mt-20 lg:grid-cols-[1.08fr_0.92fr] lg:gap-16">
               <figure className="about-portrait group relative min-h-[520px] overflow-hidden bg-[#191C2F] lg:min-h-[640px]">
-                <img src="/manus-storage/profile-023_93412550.jpg" alt="Refined leather, timber and textile interior from the Choice Prime company profile" className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.035]" />
+                <img src="/assets/profile-023_93412550.jpg" alt="Refined leather, timber and textile interior from the Choice Prime company profile" className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.035]" />
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(25,28,47,0.04),rgba(25,28,47,0.64))]" />
                 <div className="absolute left-7 top-7 flex items-center gap-3 text-[9px] font-bold uppercase tracking-[0.19em] text-white/80"><span className="h-px w-8 bg-[#B8935F]" />Material portrait</div>
                 <figcaption className="absolute inset-x-0 bottom-0 p-7 sm:p-9"><p className="max-w-md font-[DM_Serif_Display] text-3xl leading-[1.03] tracking-[-0.025em] text-white sm:text-4xl">Leather, timber, textile and chrome—cared for on their own terms.</p></figcaption>
@@ -403,7 +403,7 @@ export default function Home() {
                 const Icon = service.icon;
                 return (
                   <article key={service.number} className={`service-card-premium group relative min-h-[266px] overflow-hidden bg-[#FCFCFB] p-6 shadow-[0_12px_28px_rgba(17,32,60,0.07)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_36px_rgba(17,32,60,0.13)] sm:p-7 ${index === 0 ? "service-card-feature lg:col-span-2 lg:row-span-2 lg:min-h-[548px]" : ""} ${index === 7 ? "lg:col-span-2" : ""}`}>
-                    {index === 0 && <><img src="/manus-storage/choice-prime-marble_015db032.jpg" alt="Polished natural stone detail" className="absolute inset-0 h-full w-full object-cover opacity-25 transition-transform duration-700 group-hover:scale-[1.04]" /><div className="absolute inset-0 bg-[linear-gradient(145deg,rgba(14,27,57,0.96),rgba(14,27,57,0.68))]" /></>}
+                    {index === 0 && <><img src="/assets/choice-prime-marble_015db032.jpg" alt="Polished natural stone detail" className="absolute inset-0 h-full w-full object-cover opacity-25 transition-transform duration-700 group-hover:scale-[1.04]" /><div className="absolute inset-0 bg-[linear-gradient(145deg,rgba(14,27,57,0.96),rgba(14,27,57,0.68))]" /></>}
                     <div className={`absolute right-0 top-0 h-16 w-16 border-b border-l transition-all duration-300 group-hover:h-20 group-hover:w-20 ${index === 0 ? "border-[#B8935F]/60" : "border-[#2E6FEA]/15 group-hover:border-[#2E6FEA]/60"}`} />
                     <div className="flex items-start justify-between">
                       <span className={`relative z-10 font-[DM_Serif_Display] text-2xl ${index === 0 ? "text-[#E5CDA8]" : "text-[#2E6FEA]"}`}>{service.number}</span>
@@ -528,7 +528,7 @@ export default function Home() {
 
             <div className="mt-14 grid gap-5 lg:mt-20 lg:grid-cols-[0.78fr_1.22fr] lg:gap-7">
               <aside className="client-primer group relative min-h-[410px] overflow-hidden bg-[#191C2F] p-7 text-white sm:p-9 lg:min-h-[610px]">
-                <img src="/manus-storage/profile-002_3e10afbf.jpg" alt="Premium hospitality interior from the Choice Prime company profile" className="absolute inset-0 h-full w-full object-cover opacity-35 transition-transform duration-700 group-hover:scale-[1.035]" />
+                <img src="/assets/profile-002_3e10afbf.jpg" alt="Premium hospitality interior from the Choice Prime company profile" className="absolute inset-0 h-full w-full object-cover opacity-35 transition-transform duration-700 group-hover:scale-[1.035]" />
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(25,28,47,0.45),rgba(25,28,47,0.95))]" />
                 <div className="relative flex h-full flex-col justify-between">
                   <div>
