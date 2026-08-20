@@ -1,0 +1,36 @@
+- [x] Review company-profile imagery and select suitable assets for the website
+- [x] Refine the premium cleaning-services visual system and service cards
+- [x] Strengthen call-to-action sections, typography, whitespace, and motion
+- [x] Validate desktop and mobile presentation before delivery
+- [ ] Add an accessible timed hero slideshow with manual controls
+- [x] Add an accessible timed hero slideshow with manual controls
+- [x] Verify slideshow animation and responsive hero composition
+- [x] Select and upload four company-profile images for the hero slideshow
+- [x] Simplify the hero copy and verify the revised slideshow
+- [x] Prepare and apply the exact company-profile Choice Prime logo
+- [x] Verify the updated logo on desktop and mobile
+- [x] Redesign the About section with premium editorial composition and material detail
+- [x] Redesign the Services section as an elevated, interactive service portfolio
+- [x] Verify the refined About and Services sections across desktop and mobile
+- [x] Reframe the global design system with travertine, navy, and brass luxury cues
+- [x] Expand the services portfolio to the eight service scopes in the supplied brief
+- [x] Add the prestige client showcase and quality-partner strip
+- [x] Upgrade the premium contact experience with service selection and direct actions
+- [x] Verify the full redesign across desktop and mobile
+- [x] Replace the existing About composition with a new premium brand-story layout
+- [x] Verify the redesigned About section across desktop and mobile
+- [x] Recompose the About section with a calm travertine, graphite, brass, and Choice Blue hierarchy
+- [x] Verify the recalibrated About section across desktop and mobile
+- [x] Recompose Services into a calm premium portfolio with complete but lighter information density
+- [x] Verify the redesigned Services section across desktop and mobile
+- [x] Rework the Services section into a lighter premium card composition
+- [x] Verify the updated Services cards across desktop and mobile
+- [x] Remove the visual gap between the Services close and the philosophy section
+- [x] Verify the repaired section transition on desktop and mobile
+- [x] Redesign the Selected Client Portfolio with the site’s premium visual system
+- [x] Verify the redesigned client portfolio across desktop and mobile
+- [x] Redesign the Commitment to Quality section with a premium material-led composition
+- [x] Verify the redesigned quality section across desktop and mobile
+- [x] Replace the Commitment to Quality layout with a distinctly different premium view
+- [x] Redesign the Contact section as part of a cohesive closing experience
+- [x] Verify the redesigned quality and contact sections across desktop and mobile
